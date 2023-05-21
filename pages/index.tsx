@@ -29,12 +29,7 @@ const Home: NextPage = () => {
             <Image src="/profile.jpeg" layout="fill" objectFit='contain' alt="profile" style={{ borderRadius: '50%' }} />
           </div>
         </div>
-        <ul className="list-disc ml-4 mt-10">
-          <li>pico LLC代表。</li>
-          <li>タイミーでCIO、RobesでCTOをしていました。</li>
-          <li>スタートアップでの経験が長く、プロジェクトの立ち上げ経験が豊富です。</li>
-          <li>現在は開発以外にも、技術顧問やコンサルティングのお仕事もお受けしています。</li>
-        </ul>
+        <p className="mt-8">合同会社ピコ代表。タイミーの創業期にCIOとしてジョイン。WebシステムやiOSアプリのバックエンドの開発、エンジニアの組織づくりなどを担当。その後、フリーランスとして独立。スタートアップ企業を中心に様々なプロジェクトに携わる。</p>
         <p className="mt-4 flex items-center"><a href="https://github.com/m1ul24" target="_blank" rel="noopener noreferrer" className="underline mr-1">Github</a><TbExternalLink size="20" /></p>
         <section className="mt-24">
           <h2 className="text-3xl font-medium">Work experience</h2>
